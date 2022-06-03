@@ -15,6 +15,8 @@ function onFormSubmit(event) {
         return alert('All fields must be filled!');
 
     }
+    console.log(`Email: ${email.value}, 
+    password: ${password.value}`);
     event.currentTarget.reset();
     }
     
